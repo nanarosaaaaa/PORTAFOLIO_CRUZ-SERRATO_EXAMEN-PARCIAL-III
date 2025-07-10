@@ -1,23 +1,47 @@
-/* Logo del encabezado y navegación*/
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .logo img {
   height: 30px;
+
+}
+
+.logo i {
+  color: #ff9900;
+  font-size: 1.8rem;
+  transition: transform 0.3s ease;
+  animation: shake-chicken 1.5s infinite ease-in-out;
+  transform-origin: center;
+}
+
+.logo i:hover {
+  transform: rotate(-15deg) scale(1.1);
+  
 }
 
 .nav__list {
   display: flex;
   gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav__list a {
   font-size: 0.85rem;
   font-weight: var(--font-weight-bold);
   color: var(--color-text);
+  text-decoration: none;
   transition: color 0.3s;
 }
 
 .nav__list a:hover {
-  color: #ff90e8; 
+  color: #ff90e8;
 }
+
 
 /* Subtítulo */
 .portfolio__subtitle {
@@ -47,8 +71,8 @@
   height: auto;
   border-radius: 12px;
   object-fit: contain;
+  animation: float 3s ease-in-out infinite;
 }
-
 
 .portfolio__content {
  display: flex;
@@ -59,7 +83,6 @@
  text-align: center;
   
 }
-
 
 /* contenedores*/
 .portfolio__text {
@@ -72,4 +95,46 @@
   justify-content: center;
   margin-top: 0;               
   margin-left: 0;              
+}
+.portfolio__buttons {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Botón Preguntas Frecuentes */
+.btn-faq {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #ff9900;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.btn-faq:hover {
+  background-color: #ff7700;
+}
+
+/* Íconos de redes */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.social-links a {
+  font-size: 1.6rem;
+  color: #444;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+  color: #e6924e;
+  transform: scale(1.2);
 }

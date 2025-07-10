@@ -1,0 +1,75 @@
+/* Logo del encabezado y navegación*/
+.logo img {
+  height: 30px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__list a {
+  font-size: 0.85rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  transition: color 0.3s;
+}
+
+.nav__list a:hover {
+  color: #ff90e8; 
+}
+
+/* Subtítulo */
+.portfolio__subtitle {
+  font-size: 0.75rem; 
+  font-weight: 300;
+  color: #000000;
+  text-align: center; 
+  margin-bottom: 0.3rem; 
+  margin-top: -1rem; /* un poco más arriba del título */
+}
+
+/* Título principal */
+.portfolio__title {
+  font-family: var(--font-deco);
+  font-size: 9rem;
+  line-height: 1;
+  background: var(--gradient-portafolio);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 0;
+}
+
+/* Imagen */
+.portfolio__image img {
+  width: 100%;
+  max-width: 420px; 
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+/* Contenedor general */
+.portfolio__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* Texto y imagen se reparten el espacio */
+.portfolio__text {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Imagen crece más */
+.portfolio__image {
+  flex: 1.2;
+  min-width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

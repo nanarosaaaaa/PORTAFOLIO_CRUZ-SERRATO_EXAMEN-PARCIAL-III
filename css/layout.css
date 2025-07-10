@@ -1,0 +1,51 @@
+body {
+  background-color: var(--color-page-bg);
+  color: var(--color-text);
+}
+
+/* Encabezado general*/
+.header {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0rem auto 0 auto;
+  left: 0;
+  right: 0;
+  background-color: var(--color-header-bg);
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+/* organiza logo y menú */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header.scrolled {
+  opacity: 0.95;
+  background-color: #111111; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* PORTAFOLIO */
+
+.portfolio {
+  background-color: var(--color-box-bg);
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 1200px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+

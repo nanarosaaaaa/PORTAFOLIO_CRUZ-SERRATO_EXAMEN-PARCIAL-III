@@ -1,0 +1,12 @@
+:root {
+  --color-page-bg: #ffa64d;
+  --color-header-bg: #000000;
+  --color-text: #ffffff;
+  --font-main: 'Poppins', sans-serif;
+  --font-deco: 'Chewy', cursive;
+  --font-weight-bold: 600;
+  --gradient-portafolio: linear-gradient(45deg, orange, rgb(226, 194, 9));
+  --color-box-bg: #ffffff;
+}
+
+

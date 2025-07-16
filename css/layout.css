@@ -3,7 +3,10 @@ body {
   color: var(--color-text);
 }
 
-/* Encabezado general*/
+section {
+  margin-bottom: 2rem; 
+}
+/* Encabezado general del proyecto*/
 .header {
   position: fixed;
   top: 0;
@@ -36,15 +39,50 @@ body {
 }
 
 /* PORTAFOLIO */
-
 .portfolio {
   background-color: var(--color-box-bg);
   border-radius: 16px;
   padding: 3rem 2rem;
-  margin: 2rem auto;
+  margin: 1rem auto;
   width: 90%;
   max-width: 1200px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* SECCIÓN SOBRE MI - ESTRUCTURA GENERAL */
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem; 
+  margin: 1rem auto; 
+}
+
+.about__container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 4.5rem;
+  margin: 1rem auto;
+}
+
+/* SECCIÓN MIS PROYECTOS */
+.projects {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.projects__container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 4.5rem;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1.5rem;
+  justify-items: center; 
+  text-align: center;
 }
 
 

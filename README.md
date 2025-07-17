@@ -17,10 +17,14 @@ FontAwesome → Íconos para mejorar la interfaz.
 
 Git & GitHub → Control de versiones y publicación en GitHub Pages.
 
--LINK DE REPOSITORIO GITHUB:
+-LINK DE REPOSITORIO GITHUB: https://github.com/nanarosaaaaa/PORTAFOLIO_CRUZ-SERRATO_EXAMEN-PARCIAL-III/tree/main
+
 -LINK DE GITPAGES: https://nanarosaaaaa.github.io/PORTAFOLIO_CRUZ-SERRATO_EXAMEN-PARCIAL-III/
 
+
 -COMMITS
+
 <img width="904" height="483" alt="Captura de pantalla 2025-07-16 214214" src="https://github.com/user-attachments/assets/c74996ba-cafd-45c9-a32b-2fd5b2975221" />
+
 <img width="672" height="593" alt="Captura de pantalla 2025-07-16 214306" src="https://github.com/user-attachments/assets/5b206388-6da1-4d3e-a08c-11af950487e1" />
 
